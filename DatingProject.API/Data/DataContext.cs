@@ -9,5 +9,7 @@ namespace DatingProject.API.Data
         (options) {}
 
         public DbSet<Value> Values {get; set;} // table name in SQL
+
+        public DbSet<User> Users {get; set;} //whenever new class is added we need to include it in db
     }
 }
